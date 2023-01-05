@@ -2,15 +2,15 @@ import Link from "./Link";
 
 const Attribution: React.FC<{}> = () => {
   return (
-    <section>
-      <p className="font-serif text-blue-200">
+    <section className="font-serif text-sm text-blue-200 grid place-items-center">
+      <p>
         Challenge by{" "}
         <Link href="https://www.frontendmentor.io/?ref=challenge">
           Frontend Mentor
         </Link>
         .
       </p>
-      <p className="font-serif text-blue-200">
+      <p>
         Coded by <Link href="https://github.com/revuwem">revuwem</Link>.
       </p>
     </section>
