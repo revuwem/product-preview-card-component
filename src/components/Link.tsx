@@ -8,7 +8,7 @@ const Link: React.FC<ILinkProps> = ({ children, href, ...props }) => {
     <a
       href={href}
       {...props}
-      className="text-cyan hover:text-blue-100 transition"
+      className="text-cyan-200 hover:text-cyan-100 transition"
     >
       {children}
     </a>
