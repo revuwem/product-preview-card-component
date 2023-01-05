@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       colors: {
         white: "hsl(0, 0%, 100%)",
-        cyan: "hsl(158, 36%, 37%)",
+        cyan: {
+          100: "hsl(158, 36%, 27%)",
+          200: "hsl(158, 36%, 37%)",
+        },
         cream: "hsl(30, 38%, 92%)",
         blue: {
           100: "hsl(212, 21%, 14%)",
