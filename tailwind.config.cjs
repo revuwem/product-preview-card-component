@@ -6,6 +6,9 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        xl: "1440px",
+      },
       colors: {
         white: "hsl(0, 0%, 100%)",
         cyan: {
